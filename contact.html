@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en-US">
+        <link rel="stylesheet" href="main.css">
+        <title>Contact - cjbelt's gaming blog</title>
+    </head>
+    <body>
+        <div class="top-bar" id="top">
+            <a href="home.html">
+            <div class="blog-heading">
+                <div class="blog-title">
+                    cjbelt's Gaming Blog
+                </div>
+                <div class="description">
+                    Opinions from an unopionated gamer
+                </div>
+            </div>
+            </a>
+            <div class="nav">
+                <a href="current-gen.html">Current Generation</a>
+                <a href="re4r.html">Resident Evil 4 Remake</a>
+                <a href="vr.html">Why VR flopped?</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+
+        <div class="main-section">
+            <h1>Contact Me!</h1>
+            <p>If you have any suggestion, criticism or support, please fill that form below.</p>
+
+            <form class="contact" method="post" action="/form-handling-url">
+                <fieldset>
+                    <h2>Contact</h2>
+                    <div class="inputs">
+                        <div>
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" name="user_name">
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="e-mail">
+                        </div>
+
+                        <div>
+                            <label for="comment">Message:</label>
+                            <textarea id="comment" name="message"></textarea>
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="ck" name="agree-terms">
+                        <label for="ck">I agree to share these informations with the readers of this blog in a possible blog post</label>
+                    </div>
+
+                    <div class="btn">
+                        <button>Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="back-top">
+            <a href="#top">Back to top</a>
+        </div>
+    </body>
+</html>
